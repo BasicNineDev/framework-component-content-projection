@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-multi-content-projection',
+  selector: 'multi-content-projection',
   template: `
     <h3>Multi-content-projection</h3>
     

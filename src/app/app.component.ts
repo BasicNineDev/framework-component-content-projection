@@ -3,12 +3,14 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
+    <h1>컨텐트 프로젝션</h1>
+    
     <!-- 싱글 슬롯 컨텐트 프로젝션 -->
     <single-content-projection>
       <strong>Single-slot</strong>
       <i>Content projection</i>
     </single-content-projection>
-    
+
     <!-- 멀티 슬롯 콘텐트 프로젝션-->
     <multi-content-projection>
       <footer>Footer</footer>
@@ -20,5 +22,5 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-  title = 'framework-component-content-projection';
+
 }
